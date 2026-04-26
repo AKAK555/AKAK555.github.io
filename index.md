@@ -32,21 +32,46 @@ Senior professional with over 9 years of experience in high-stakes government op
 <h3>📈 Household Consumption Forecasting (Master’s Thesis)</h3>
 <strong>Liverpool John Moores University (Expected June 2026)</strong><br>
 Developing deep learning models to forecast household patterns using time-series analysis. The research identifies socio-economic drivers to provide actionable insights for resource planning and financial forecasting.
+This research focuses on solving the volatility of household resource demands using advanced temporal modeling .
+Model Stack: Utilizing Long Short-Term Memory (LSTM) and Gated Recurrent Units (GRU) to capture long-term dependencies in consumption data.
+Feature Engineering: Integrating socio-economic drivers—such as regional economic indices and seasonal behavioral trends—as exogenous variables to improve forecast accuracy.
+Impact: The goal is to provide a framework for resource planning that reduces waste and optimizes financial forecasting for utility providers.
 </div>
 
 <div class="project-card">
 <h3>🤖 End-to-End Agentic AI Chatbot</h3>
 Engineered a modular agent featuring real-time web-search via Tavily API and dynamic module switching for AI news generation. Built for high-speed inference and stateful conversational flows.
+🏗 System Architecture: Agentic AI ChatbotThis project was designed as a modular, stateful AI agent capable of autonomous reasoning and tool use.
+Orchestration Layer: Built using LangGraph to manage stateful, multi-turn conversations and conditional routing logic.Inference Engine: Utilizes Groq LPU (Language Processing Unit) to achieve ultra-low latency for real-time user interactions.
+Tool Integration: Implemented an autonomous Tavily API module for real-time web search, enabling the agent to retrieve up-to-date information beyond its training data.
+Deployment Stack: The system is built on FastAPI, containerized using Docker, and architected for deployment on Google Kubernetes Engine (GKE).
+💡 How This Aligns with My Career Transition
+My move from the Ministry of Defence to AI Engineering is fueled by the same discipline required for high-stakes government operations :
+Security & Compliance: My experience overseeing regulatory documentation and FCRA/Political Clearances ensures that I build AI systems with data governance and ethical guardrails in mind.
+Operational Efficiency: Just as I contributed to 30% cost savings in the AFHQ Cadre, I now focus on optimizing LLM workflows and inference costs using technologies like Groq and RAG.
+Leadership & Execution: Completing an M.Sc. in Data Science while maintaining a senior role in the government demonstrates the grit and technical adaptability I bring to an AI team.
 </div>
 
 <div class="project-card">
 <h3>✍️ Multilingual Blog Generator</h3>
 Developed a GenAI system for SEO-friendly, Markdown-formatted content. Built specialized translation pipelines for Hindi and French with cultural adaptation using agentic conditional routing.
+Multilingual Blog Generator: Agentic Translation Pipeline
+This system moves beyond simple translation by using a "Reasoning-before-Acting" workflow to ensure cultural relevance .
+Architecture: Implemented a Conditional Routing Graph that analyzes the source content's tone before selecting a translation pipeline.
+Cultural Adaptation: Unlike standard translators, this agent uses a multi-step prompt chain to adapt SEO keywords and idioms specifically for Hindi and French audiences.
+Production Interface: The entire backend is built with FastAPI, allowing for high-concurrency requests and easy integration with modern frontend frameworks.
 </div>
 
 <div class="project-card">
 <h3>🖼 Cloud-Powered Celebrity Detector</h3>
 Real-time recognition system using Groq for fast inference and OpenCV. Containerized with Docker and deployed on Google Kubernetes Engine (GKE) with CircleCI integration.
+This project showcases your ability to deploy AI at scale using modern infrastructure .
+Computer Vision: Uses OpenCV for real-time frame processing and face detection.
+Inference Optimization: Integrated Groq to handle the heavy lifting of LLM-based reasoning, ensuring the identification process happens in milliseconds.
+Deployment & CI/CD:
+Containerization: Packaged with Docker for environment consistency.
+Orchestration: Deployed on Google Kubernetes Engine (GKE) to handle auto-scaling.
+Automation: Integrated CircleCI for a continuous delivery pipeline, ensuring every code change is automatically tested and deployed.
 </div>
 
 ---
