@@ -1,52 +1,71 @@
-[📄 Download My Resume (PDF)](./Akshay_Resume_10Apr.pdf)
-# Akshay Sharma
-**Data Scientist & AI Engineer** 📍 Delhi, India | [LinkedIn](www.linkedin.com/in/akshay-sharma-5b4035aa) | [GitHub](https://github.com/AKAK555)
+<style>
+  body { font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: #2d3748; line-height: 1.7; }
+  h1, h2, h3 { color: #1a202c; font-weight: 700; margin-top: 1.5em; }
+  .header-sub { font-size: 1.2em; color: #4a5568; font-weight: 400; margin-bottom: 2em; }
+  .tag { background: #edf2f7; color: #2d3748; padding: 4px 12px; border-radius: 4px; font-size: 0.85em; font-weight: 600; margin-right: 5px; display: inline-block; margin-bottom: 5px; }
+  .project-card { border-left: 4px solid #3182ce; padding-left: 20px; margin-bottom: 30px; }
+  hr { border: 0; border-top: 1px solid #e2e8f0; margin: 2em 0; }
+  a { color: #3182ce; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+</style>
 
-## 🚀 Professional Summary 
-[cite_start]Senior professional with over 9 years of experience in high-stakes government operations. [cite_start]Currently transitioning into **Data Science and AI** with a specialization in Agentic AI workflows, LLMs, and Time-Series Forecasting[cite: 6]. [cite_start]I am bridging my professional maturity with technical expertise through an **M.Sc. in Data Science** from Liverpool John Moores University[cite: 8].
+# Akshay Sharma
+<div class="header-sub">Senior Professional & AI Engineer specializing in Agentic Systems & LLMs</div>
+
+[LinkedIn](https://www.linkedin.com/in/akshay-sharma-5b4035aa) | [GitHub](https://github.com/AKAK555) | [Email](mailto:akshaysharma6293@gmail.com) | [📄 Download Resume](./Akshay_Resume_10Apr.pdf)
+
+---
+
+## 🚀 Professional Summary
+Senior professional with over 9 years of experience in high-stakes government operations within the **Ministry of Defence**. Currently transitioning into Data Science and AI with a specialization in **Agentic AI workflows, Large Language Models (LLMs), and Time-Series Forecasting**. I bridge professional maturity and leadership with cutting-edge technical expertise.
 
 ---
 
 ## 🛠 Technical Toolkit
-* [cite_start]**Generative AI:** Agentic AI Workflows, RAG, LangChain, Groq Inference[cite: 10].
-* [cite_start]**AI & Deep Learning:** TensorFlow, PyTorch, Scikit-learn, CNNs[cite: 11].
-* [cite_start]**Cloud & MLOps:** GCP (Vertex AI), Docker, Kubernetes (GKE), CircleCI[cite: 14].
-* [cite_start]**Languages:** Python, SQL, R, FastAPI[cite: 13].
+<div class="tag">Python</div> <div class="tag">SQL</div> <div class="tag">FastAPI</div> <div class="tag">LangChain</div> <div class="tag">LangGraph</div> <div class="tag">Groq</div> <div class="tag">TensorFlow</div> <div class="tag">PyTorch</div> <div class="tag">Docker</div> <div class="tag">Kubernetes (GKE)</div> <div class="tag">GCP</div>
 
 ---
 
 ## 🧪 Featured Projects & Research
 
-### 📈 Household Consumption Forecasting (Master's Thesis)
-* [cite_start]**Institution:** Liverpool John Moores University (Expected June 2026)[cite: 19].
-* [cite_start]**Scope:** Developing deep learning models to forecast household patterns using time-series analysis[cite: 21].
-* [cite_start]**Goal:** Identifying socio-economic drivers for resource and financial planning[cite: 22].
+<div class="project-card">
+<h3>📈 Household Consumption Forecasting (Master’s Thesis)</h3>
+<strong>Liverpool John Moores University (Expected June 2026)</strong><br>
+Developing deep learning models to forecast household patterns using time-series analysis. The research identifies socio-economic drivers to provide actionable insights for resource planning and financial forecasting.
+</div>
 
-### 🤖 End-to-End Agentic AI Chatbot
-* [cite_start]Engineered a modular agent featuring real-time web-search via Tavily API[cite: 24].
-* [cite_start]Implemented dynamic module switching for AI news generation[cite: 25].
+<div class="project-card">
+<h3>🤖 End-to-End Agentic AI Chatbot</h3>
+Engineered a modular agent featuring real-time web-search via Tavily API and dynamic module switching for AI news generation. Built for high-speed inference and stateful conversational flows.
+</div>
 
-### ✍️ Multilingual Blog Generator
-* [cite_start]Developed a GenAI system for SEO-friendly, Markdown-formatted content[cite: 27].
-* [cite_start]Built specialized translation pipelines (Hindi/French) with cultural adaptation[cite: 28].
+<div class="project-card">
+<h3>✍️ Multilingual Blog Generator</h3>
+Developed a GenAI system for SEO-friendly, Markdown-formatted content. Built specialized translation pipelines for Hindi and French with cultural adaptation using agentic conditional routing.
+</div>
 
-### 🖼 Cloud-Powered Celebrity Detector
-* [cite_start]Real-time recognition using Groq for fast inference and OpenCV[cite: 31].
-* [cite_start]Containerized with Docker and deployed on Google Kubernetes Engine[cite: 32].
+<div class="project-card">
+<h3>🖼 Cloud-Powered Celebrity Detector</h3>
+Real-time recognition system using Groq for fast inference and OpenCV. Containerized with Docker and deployed on Google Kubernetes Engine (GKE) with CircleCI integration.
+</div>
 
 ---
 
 ## 💼 Professional Experience
-**Senior Secretariat Assistant | [cite_start]Ministry of Defence, Govt. of India** *July 2016 – Present* [cite: 39]
+**Senior Secretariat Assistant | Ministry of Defence, Govt. of India**
+*July 2016 – Present*
 
-* Manage administrative and financial functions for the AFHQ Cadre[cite: 40].
-* [cite_start]Contributed to a **cost saving of over 30%** per financial year since 2016-17[cite: 40].
-* [cite_start]Oversee regulatory documentation and procurement via the GeM platform[cite: 41, 43].
+* Manage administrative and financial functions for the AFHQ Cadre, contributing to **cost savings of over 30%** per financial year.
+* Oversee regulatory documentation, compliance for Defence sector analysis, and procurement via the GeM platform.
+* Strategic lead for process optimization and organizational compliance.
 
 ---
 
 ## 🎓 Education & Certifications
-* **M.Sc. [cite_start]Data Science:** Liverpool John Moores University (2026)[cite: 45].
-* **PGP Data Science & AI:** IIIT, Bengaluru (CGPA: 3.52)[cite: 46].
-* [cite_start]**B.Tech CS:** Jaipur Engineering College and Research Centre[cite: 47].
-* [cite_start]**Certifications:** IBM AI Engineer, Google Cloud Data Analytics, and Agentic AI Bootcamp[cite: 49].
+* **M.Sc. Data Science** | Liverpool John Moores University (2026)
+* **PGP Data Science & AI** | IIIT, Bengaluru (CGPA: 3.52)
+* **B.Tech Computer Science** | Jaipur Engineering College and Research Centre
+* **Certifications:** IBM AI Engineer, Google Cloud Data Analytics, Agentic AI Bootcamp (Udemy), LLMOps and AIOps Bootcamp.
+
+---
+<p style="text-align: center; font-size: 0.8em; color: #718096;">&copy; 2026 Akshay Sharma. Built with Jekyll and GitHub Pages.</p>
