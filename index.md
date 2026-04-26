@@ -1,23 +1,29 @@
 <style>
-  body { font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: #2d3748; line-height: 1.7; }
+  body { font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: #2d3748; line-height: 1.8; }
   h1, h2, h3 { color: #1a202c; font-weight: 700; margin-top: 1.5em; }
   
-  /* Lighter background for project headings */
+  /* Very light background for project headings */
   .project-card h3 { 
-    background-color: #f7fafc; 
-    padding: 10px 15px; 
-    border-radius: 6px; 
+    background-color: #fcfdfe; 
+    border: 1px solid #edf2f7;
+    padding: 12px 18px; 
+    border-radius: 8px; 
     margin-top: 0;
+    margin-bottom: 15px;
     font-size: 1.25rem;
   }
 
   .header-sub { font-size: 1.2em; color: #4a5568; font-weight: 400; margin-bottom: 2em; }
-  .tag { background: #edf2f7; color: #2d3748; padding: 4px 12px; border-radius: 4px; font-size: 0.85em; font-weight: 600; margin-right: 5px; display: inline-block; margin-bottom: 5px; }
-  .project-card { border-left: 4px solid #3182ce; padding: 20px; margin-bottom: 30px; background: white; }
-  .tech-detail { font-size: 0.95em; color: #4a5568; margin-top: 10px; }
-  .align-box { background: #f0f4f8; padding: 15px; border-radius: 8px; margin-top: 15px; font-size: 0.9em; }
+  .tag { background: #edf2f7; color: #2d3748; padding: 4px 12px; border-radius: 4px; font-size: 0.85em; font-weight: 600; margin-right: 5px; display: inline-block; margin-bottom: 8px; }
+  .project-card { border-left: 4px solid #3182ce; padding: 25px; margin-bottom: 40px; background: white; }
   
-  hr { border: 0; border-top: 1px solid #e2e8f0; margin: 2em 0; }
+  /* Increased spacing for project descriptions */
+  .tech-detail p, .tech-detail ul { margin-bottom: 20px; }
+  .tech-detail li { margin-bottom: 12px; }
+  
+  .align-box { background: #f8fafc; border: 1px dashed #cbd5e0; padding: 20px; border-radius: 8px; margin-top: 20px; font-size: 0.95em; }
+  
+  hr { border: 0; border-top: 1px solid #e2e8f0; margin: 2.5em 0; }
   a { color: #3182ce; text-decoration: none; font-weight: 500; }
   a:hover { text-decoration: underline; }
 </style>
@@ -30,7 +36,11 @@
 ---
 
 ## 🚀 Professional Summary
-[cite_start]Senior professional with over 9 years of experience in high-stakes government operations within the **Ministry of Defence**[cite: 5, 39]. [cite_start]Currently transitioning into Data Science and AI with a specialization in **Agentic AI workflows, Large Language Models (LLMs), and Time-Series Forecasting**[cite: 6, 10]. [cite_start]I bridge professional maturity and leadership with cutting-edge technical expertise, supported by an **M.Sc. in Data Science** from Liverpool John Moores University[cite: 8, 45].
+[cite_start]Senior professional with over 9 years of experience in high-stakes government operations within the **Ministry of Defence**[cite: 5, 39]. 
+
+[cite_start]Currently transitioning into Data Science and AI with a specialization in **Agentic AI workflows, Large Language Models (LLMs), and Time-Series Forecasting**[cite: 6]. 
+
+[cite_start]I bridge professional maturity and leadership with cutting-edge technical expertise, supported by an **M.Sc. in Data Science** from Liverpool John Moores University[cite: 8].
 
 ---
 
@@ -44,52 +54,58 @@
 <div class="project-card">
 <h3>📈 Household Consumption Forecasting (Master’s Thesis)</h3>
 [cite_start]<strong>Liverpool John Moores University (Expected June 2026)</strong> [cite: 19]
+
 <div class="tech-detail">
-[cite_start]Developing deep learning models to forecast household patterns using time-series analysis[cite: 21]. This research solves volatility in resource demands through advanced temporal modeling.
+[cite_start]<p>Developing deep learning models to forecast household patterns using time-series analysis[cite: 21]. [cite_start]This research focuses on solving the high volatility often found in resource demand data[cite: 21].</p>
+
 <ul>
-  <li><strong>Model Stack:</strong> Utilizing LSTM and GRU to capture long-term dependencies in consumption data.</li>
-  [cite_start]<li><strong>Feature Engineering:</strong> Integrating socio-economic drivers as exogenous variables[cite: 22].</li>
-  <li><strong>Impact:</strong> Optimizing financial forecasting and resource planning for utility providers.</li>
+  [cite_start]<li><strong>Model Stack:</strong> Utilizing Long Short-Term Memory (LSTM) and Gated Recurrent Units (GRU) to capture long-term dependencies in consumption data[cite: 21].</li>
+  [cite_start]<li><strong>Feature Engineering:</strong> Integrating socio-economic drivers and seasonal behavioral trends as exogenous variables to improve forecast accuracy[cite: 22].</li>
+  [cite_start]<li><strong>Projected Impact:</strong> Providing a robust framework for resource planning that reduces waste and optimizes financial forecasting for utility providers[cite: 22].</li>
 </ul>
 </div>
 </div>
 
 <div class="project-card">
 <h3>🤖 End-to-End Agentic AI Chatbot</h3>
-[cite_start]Engineered a modular agent featuring real-time web-search via Tavily API and dynamic module switching for AI news generation[cite: 23, 24].
+[cite_start]<p>Engineered a modular agent featuring real-time web-search via Tavily API and dynamic module switching for AI news generation[cite: 23, 24]. [cite_start]Built for high-speed inference and stateful conversational flows[cite: 24, 25].</p>
+
 <div class="tech-detail">
 <strong>System Architecture:</strong>
 <ul>
-  <li><strong>Orchestration:</strong> Built using <strong>LangGraph</strong> for stateful, multi-turn reasoning and tool use.</li>
-  <li><strong>Inference:</strong> Powered by <strong>Groq LPU</strong> for ultra-low latency interactions.</li>
-  [cite_start]<li><strong>Deployment:</strong> Containerized via Docker and architected for GKE[cite: 32].</li>
+  <li><strong>Orchestration Layer:</strong> Built using <strong>LangGraph</strong> to manage stateful, multi-turn conversations and conditional routing logic.</li>
+  [cite_start]<li><strong>Inference Engine:</strong> Powered by <strong>Groq LPU</strong> to achieve ultra-low latency for real-time user interactions[cite: 31].</li>
+  [cite_start]<li><strong>Deployment Stack:</strong> The system is built on <strong>FastAPI</strong>, containerized using <strong>Docker</strong>, and architected for deployment on <strong>Google Kubernetes Engine (GKE)</strong>[cite: 29, 32].</li>
 </ul>
 </div>
+
 <div class="align-box">
-<strong>Strategic Edge:</strong> Applying the discipline of high-stakes government operations to AI safety and operational efficiency. [cite_start]Targeted 30% cost savings through automated LLM workflow optimization[cite: 40].
+[cite_start]<strong>Strategic Edge:</strong> Applying the discipline of high-stakes government operations to AI safety and operational efficiency[cite: 5, 7]. [cite_start]I focus on optimizing LLM workflows and inference costs, mirroring the 30% cost savings I facilitated in the AFHQ Cadre[cite: 40].
 </div>
 </div>
 
 <div class="project-card">
 <h3>✍️ Multilingual Blog Generator</h3>
-[cite_start]Developed a GenAI system for SEO-friendly content with specialized translation pipelines for Hindi and French[cite: 26, 27].
+[cite_start]<p>Developed a GenAI system for SEO-friendly, Markdown-formatted content[cite: 26, 27]. [cite_start]Built specialized translation pipelines for Hindi and French with cultural adaptation[cite: 28].</p>
+
 <div class="tech-detail">
 <ul>
-  [cite_start]<li><strong>Architecture:</strong> Implemented a <strong>Conditional Routing Graph</strong> for "Reasoning-before-Acting" workflows[cite: 28].</li>
-  <li><strong>Adaptation:</strong> Agentic prompt chains for cultural adaptation rather than simple direct translation.</li>
-  [cite_start]<li><strong>Interface:</strong> Production-ready backend built with <strong>FastAPI</strong>[cite: 29].</li>
+  [cite_start]<li><strong>Architecture:</strong> Implemented a <strong>Conditional Routing Graph</strong> that analyzes source content tone before selecting a translation pipeline[cite: 28].</li>
+  [cite_start]<li><strong>Cultural Adaptation:</strong> Uses multi-step agentic prompt chains to adapt SEO keywords and idioms rather than simple direct translation[cite: 28].</li>
+  [cite_start]<li><strong>Production Interface:</strong> Fully API-driven backend built with <strong>FastAPI</strong> for seamless integration[cite: 29].</li>
 </ul>
 </div>
 </div>
 
 <div class="project-card">
 <h3>🖼 Cloud-Powered Celebrity Detector</h3>
-[cite_start]Real-time recognition system using Groq for fast inference and OpenCV[cite: 30, 31].
+[cite_start]<p>Real-time recognition system using Groq for fast inference and OpenCV for image analysis[cite: 30, 31].</p>
+
 <div class="tech-detail">
 <ul>
-  <li><strong>Computer Vision:</strong> Real-time frame processing and face detection via OpenCV.</li>
-  [cite_start]<li><strong>Infrastructure:</strong> Scalable deployment on <strong>GKE</strong> with auto-scaling capabilities[cite: 32].</li>
-  [cite_start]<li><strong>CI/CD:</strong> Integrated <strong>CircleCI</strong> for robust continuous delivery pipelines[cite: 33].</li>
+  [cite_start]<li><strong>Computer Vision:</strong> Real-time frame processing and face detection via <strong>OpenCV</strong>[cite: 31].</li>
+  [cite_start]<li><strong>Infrastructure:</strong> Containerized with <strong>Docker</strong> and deployed on <strong>Google Kubernetes Engine (GKE)</strong> to handle auto-scaling[cite: 32].</li>
+  [cite_start]<li><strong>CI/CD:</strong> Integrated <strong>CircleCI</strong> for robust continuous delivery pipelines and automated testing[cite: 33].</li>
 </ul>
 </div>
 </div>
@@ -107,7 +123,7 @@
 ---
 
 ## 🎓 Education & Certifications
-* **M.Sc. Data Science** | [cite_start]Liverpool John Moores University (2026) [cite: 45]
+* **M.Sc. Data Science** | [cite_start]Liverpool John Moores University (Expected June 2026) [cite: 45]
 * **PGP Data Science & AI** | IIIT, Bengaluru (CGPA: 3.52) [cite: 46]
 * **B.Tech Computer Science** | [cite_start]Jaipur Engineering College and Research Centre [cite: 47]
 * [cite_start]**Certifications:** IBM AI Engineer & Data Science Professional, Google Advanced Data Analytics, Agentic AI Bootcamp[cite: 49].
