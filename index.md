@@ -1,3 +1,4 @@
+[📄 Download My Resume (PDF)](./Akshay_Resume_10Apr.pdf)
 # Akshay Sharma
 **Data Scientist & AI Engineer** 📍 Delhi, India | [LinkedIn](www.linkedin.com/in/akshay-sharma-5b4035aa) | [GitHub](https://github.com/AKAK555)
 
